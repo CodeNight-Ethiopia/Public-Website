@@ -5,7 +5,7 @@ function SiteFooter() {
   return (
     <footer className="bg-background ">
   <div className="pt-12">
-    <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="mx-auto max-w-screen-2xl px-4 md:px-8 lg:pl-12">
       <div className="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
         <div className="col-span-full lg:col-span-2">
           <div className="mb-4 lg:-mt-2">

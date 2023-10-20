@@ -9,6 +9,27 @@ export const siteConfig = {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Talent",
+      href: "/talent",
+    },
+    {
+      title: "Research",
+      href: "/research",
+    },
+    {
+      title: "News",
+      href: "/news",
+    },
+    {
+      title: "Events",
+      href: "/events",
+    },
+    {
+      title: "Projects",
+      href: "/projects",
+    },
+
   ],
   links: {
     linkedin: "https://www.linkedin.com/company/code-night/",

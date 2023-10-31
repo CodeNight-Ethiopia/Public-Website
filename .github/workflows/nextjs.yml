@@ -9,8 +9,14 @@ on:
   push:
     branches: ["main"]
 
+
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+env: 
+  PROJECT_URL: ${{secrets.PROJECT_URL}}
+  PROJECT_API_KEY: ${{secrets.PROJECT_API_KEY}}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

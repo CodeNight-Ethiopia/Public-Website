@@ -15,13 +15,9 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
-  experimental: {
-    appDir: true,
-  },
   env: {
-    PROJECT_URL: process.env.PROJECT_URL,
-    PROJECT_API_KEY: process.env.PROJECT_API_KEY,
-  },
+    DATABASE_URL: process.env.DATABASE_URL,
+  }
 }
 
 export default nextConfig

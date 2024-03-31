@@ -15,7 +15,7 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   linkedin: Linkedin,
-  twitter: Twitter,
+  // twitter: Twitter,
   user: User,
   my_moon: (props: LucideProps) => (
     <Image
@@ -50,4 +50,345 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  codenight: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      {...props}
+    >
+      <g id="Group_121" data-name="Group 121" transform="translate(2356 -5871)">
+        <g id="Group_119" data-name="Group 119" transform="translate(1)">
+          <path
+            id="Rectangle_125"
+            data-name="Rectangle 125"
+            d="M21,0H246a21,21,0,0,1,21,21V183a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V21A21,21,0,0,1,21,0Z"
+            transform="translate(-2330 5871)"
+            fill="#212d5f"
+          />
+          <g id="Group_118" data-name="Group 118">
+            <rect
+              id="Rectangle_126"
+              data-name="Rectangle 126"
+              width="225"
+              height="139"
+              transform="translate(-2309 5893)"
+              fill="#0f1841"
+            />
+            <rect
+              id="Rectangle_127"
+              data-name="Rectangle 127"
+              width="43"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 5904)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_128"
+              data-name="Rectangle 128"
+              width="20"
+              height="11"
+              rx="5.5"
+              transform="translate(-2270 5926)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_135"
+              data-name="Rectangle 135"
+              width="22"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 5969)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_139"
+              data-name="Rectangle 139"
+              width="30"
+              height="11"
+              rx="5.5"
+              transform="translate(-2260 6011)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_141"
+              data-name="Rectangle 141"
+              width="21"
+              height="11"
+              rx="5.5"
+              transform="translate(-2212 5990)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_145"
+              data-name="Rectangle 145"
+              width="21"
+              height="11"
+              rx="5.5"
+              transform="translate(-2223 5947)"
+              fill="#3d656d"
+            />
+            <rect
+              id="Rectangle_131"
+              data-name="Rectangle 131"
+              width="32"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 5947)"
+              fill="#54467b"
+            />
+            <rect
+              id="Rectangle_140"
+              data-name="Rectangle 140"
+              width="43"
+              height="11"
+              rx="5.5"
+              transform="translate(-2223 6011)"
+              fill="#54467b"
+            />
+            <rect
+              id="Rectangle_142"
+              data-name="Rectangle 142"
+              width="20"
+              height="11"
+              rx="5.5"
+              transform="translate(-2223 5968)"
+              fill="#54467b"
+            />
+            <rect
+              id="Rectangle_132"
+              data-name="Rectangle 132"
+              width="64"
+              height="11"
+              rx="5.5"
+              transform="translate(-2244 5926)"
+              fill="#54467b"
+            />
+            <rect
+              id="Rectangle_133"
+              data-name="Rectangle 133"
+              width="22"
+              height="11"
+              rx="5.5"
+              transform="translate(-2250 5904)"
+              fill="#54467b"
+            />
+            <rect
+              id="Rectangle_134"
+              data-name="Rectangle 134"
+              width="33"
+              height="11"
+              rx="5.5"
+              transform="translate(-2261 5947)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_143"
+              data-name="Rectangle 143"
+              width="31"
+              height="11"
+              rx="5.5"
+              transform="translate(-2196 5969)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_146"
+              data-name="Rectangle 146"
+              width="42"
+              height="11"
+              rx="5.5"
+              transform="translate(-2175 5926)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_147"
+              data-name="Rectangle 147"
+              width="64"
+              height="11"
+              rx="5.5"
+              transform="translate(-2223 5904)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_137"
+              data-name="Rectangle 137"
+              width="33"
+              height="11"
+              rx="5.5"
+              transform="translate(-2250 5990)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_138"
+              data-name="Rectangle 138"
+              width="32"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 6011)"
+              fill="#aea65b"
+            />
+            <rect
+              id="Rectangle_129"
+              data-name="Rectangle 129"
+              width="22"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 5926)"
+              fill="#b08558"
+            />
+            <rect
+              id="Rectangle_130"
+              data-name="Rectangle 130"
+              width="41"
+              height="11"
+              rx="5.5"
+              transform="translate(-2271 5968)"
+              fill="#b08558"
+            />
+            <rect
+              id="Rectangle_144"
+              data-name="Rectangle 144"
+              width="22"
+              height="11"
+              rx="5.5"
+              transform="translate(-2196 5947)"
+              fill="#b08558"
+            />
+            <rect
+              id="Rectangle_149"
+              data-name="Rectangle 149"
+              width="22"
+              height="11"
+              rx="5.5"
+              transform="translate(-2174 6011)"
+              fill="#b08558"
+            />
+            <rect
+              id="Rectangle_148"
+              data-name="Rectangle 148"
+              width="32"
+              height="11"
+              rx="5.5"
+              transform="translate(-2154 5904)"
+              fill="#b08558"
+            />
+            <rect
+              id="Rectangle_136"
+              data-name="Rectangle 136"
+              width="43"
+              height="11"
+              rx="5.5"
+              transform="translate(-2298 5990)"
+              fill="#b08558"
+            />
+          </g>
+        </g>
+        <g id="Group_120" data-name="Group 120">
+          <path
+            id="Rectangle_150"
+            data-name="Rectangle 150"
+            d="M0,0H321a0,0,0,0,1,0,0V0a22,22,0,0,1-22,22H22A22,22,0,0,1,0,0V0A0,0,0,0,1,0,0Z"
+            transform="translate(-2356 6054)"
+            fill="#354173"
+          />
+          <path
+            id="Rectangle_151"
+            data-name="Rectangle 151"
+            d="M0,0H109a0,0,0,0,1,0,0V0A11,11,0,0,1,98,11H11A11,11,0,0,1,0,0V0A0,0,0,0,1,0,0Z"
+            transform="translate(-2250 6054)"
+            fill="#55608d"
+          />
+        </g>
+      </g>
+    </svg>
+  ),
+  debugging: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6"
+      {...props}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082"
+      />
+    </svg>
+  ),
+  openmic: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6"
+      {...props}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z"
+      />
+    </svg>
+  ),
+  
+  chat: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6"
+      {...props}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+      />
+    </svg>
+  ),
+
+  twitter: (props: LucideProps) => (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+    </svg>
+  ),
+
+  youtube: (props: LucideProps) => (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+      <path d="m10 15 5-3-5-3z" />
+    </svg>
+  )
+
+
 }

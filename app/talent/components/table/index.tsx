@@ -86,11 +86,11 @@ export function TalentList<T>({ data, page, total }: { data: T } | any) {
       <div className="rounded-md border">
         <Table>
           <TableHeader>
-            {table.getHeaderGroups().map((headerGroup) => (
-              <TableRow key={headerGroup.id}>
-                {headerGroup.headers.map((header) => {
+            {table.getHeaderGroups().map((headerGroup, key) => (
+              <TableRow key={key}>
+                {headerGroup.headers.map((header, hkey) => {
                   return (
-                    <TableHead key={header.id}>
+                    <TableHead key={hkey}>
                       {header.isPlaceholder
                         ? null
                         : flexRender(
@@ -105,13 +105,13 @@ export function TalentList<T>({ data, page, total }: { data: T } | any) {
           </TableHeader>
           <TableBody>
             {data && table?.getRowModel()?.rows?.length ? (
-              table.getRowModel().rows.map((row) => (
+              table.getRowModel().rows.map((row, key) => (
                 <TableRow
-                  key={row.id}
+                  key={key}
                   data-state={row.getIsSelected() && "selected"}
                 >
-                  {row.getVisibleCells().map((cell) => (
-                    <TableCell key={cell.id}>
+                  {row.getVisibleCells().map((cell, vkey) => (
+                    <TableCell key={vkey}>
                       {flexRender(
                         cell.column.columnDef.cell,
                         cell.getContext()
@@ -135,7 +135,7 @@ export function TalentList<T>({ data, page, total }: { data: T } | any) {
       </div>
       <div className="flex items-center justify-center space-x-2 py-4">
         <div className="space-x-2">
-          <Pagination>
+          {/* <Pagination>
             <PaginationContent>
               <PaginationItem>
                 <PaginationPrevious
@@ -160,8 +160,8 @@ export function TalentList<T>({ data, page, total }: { data: T } | any) {
                 />
               </PaginationItem>
             </PaginationContent>
-          </Pagination>
-          {/* <Button
+          </Pagination> */}
+          <Button
             variant="outline"
             size="sm"
             onClick={() => table.previousPage()}
@@ -176,7 +176,7 @@ export function TalentList<T>({ data, page, total }: { data: T } | any) {
             disabled={data && !table.getCanNextPage()}
           >
             Next
-          </Button> */}
+          </Button>
         </div>
       </div>
     </div>

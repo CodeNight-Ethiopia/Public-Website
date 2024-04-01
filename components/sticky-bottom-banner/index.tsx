@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons"
+import { Button } from "@/components/ui/button"
 
 export const StickyBottomBanner = () => (
   <div className="fixed inset-x-0 bottom-0 z-50">
@@ -33,5 +34,30 @@ export const StickyBottomBanner = () => (
     </div>
   </div>
 );
+
+
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/qSLvAikDxKh
+ * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ */
+
+export default function StickyEventBottomBanner() {
+  return (
+    <div className="fixed inset-x-0 bottom-0 z-50">
+      <div className="container px-4 py-3 md:py-4 flex items-center justify-between text-sm font-medium text-gray-500 bg-gray-50 dark:text-gray-400 dark:bg-gray-950">
+        <span className="grid items-center gap-1.5">
+          <span className="sr-only">Time remaining:</span>
+          <Icons.clock className="h-6 w-6" />
+          <span className="uppercase">Time remaining:</span>
+          <span className="font-semibold">25 days 12 hours 10 minutes 5 seconds</span>
+        </span>
+        <Button size="sm" variant="outline">
+          Join Event
+        </Button>
+      </div>
+    </div>
+  )
+}
 
 

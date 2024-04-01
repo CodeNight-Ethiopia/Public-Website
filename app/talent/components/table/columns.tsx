@@ -56,8 +56,8 @@ export const columns: ColumnDef<TalentResponse>[] = [
       return (
         <div>
           {}
-          {JSON.parse(row.getValue("talent").skills)?.map((skill: any) => (
-            <Badge className="mx-1" key={skill} variant="outline">
+          {JSON.parse(row.getValue("talent").skills)?.map((skill: any, key: number) => (
+            <Badge className="mx-1" key={key} variant="outline">
               {skill}
             </Badge>
           ))}

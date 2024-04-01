@@ -5,7 +5,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { HeroSection } from "@/components/hero";
 import { Programs } from "@/components/programs";
 import { Partners } from "@/components/footer/partners";
-import { StickyBottomBanner } from "@/components/sticky-bottom-banner";
+import StickyEventBottomBanner, { StickyBottomBanner } from "@/components/sticky-bottom-banner";
 import { AboutUs } from "@/components/aboutus";
 import Contributors from "@/components/contributers";
 
@@ -15,11 +15,11 @@ export default function IndexPage() {
         <main>
           <HeroSection />
           <Programs />
-          <AboutUs />
           <Partners />
           <Contributors />
         </main>
-        <StickyBottomBanner />
+        <StickyEventBottomBanner />
     </section>
   )
 }
+

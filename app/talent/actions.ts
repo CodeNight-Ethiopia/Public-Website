@@ -4,10 +4,6 @@ import { db } from "@/db/drizzle";
 import { Category, Talent } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 
-
-
-
-
 type Pagination = {
   page: number
   limit: number
@@ -30,7 +26,6 @@ async function GetTalentPaginated(category: string, pagination: Pagination) {
       .leftJoin(Category, eq(Talent.id, Category.talent))
       .groupBy(Talent.id).limit(pagination.limit).offset(offsetItems)
 
-    console.log(results)
     return {
       page: pagination.page,
       limit: pagination.limit,

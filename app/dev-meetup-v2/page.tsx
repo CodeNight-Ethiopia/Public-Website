@@ -20,7 +20,7 @@ const DevMeetupV2 = () => {
             <HeroEvent />
             <Evented />
             <DevPic />
-            <CountDown />
+            {/* <CountDown /> */}
             <UpcomingEvent />
             <Speakers />
             <Schedule />

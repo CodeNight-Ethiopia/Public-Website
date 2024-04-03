@@ -16,6 +16,18 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'avatars.githubusercontent.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '2018.jsconf.is',
+      },
+      {
+        protocol: 'https',
+        hostname: 'yt3.googleusercontent.com',
+      },
     ],
   },
   reactStrictMode: true,

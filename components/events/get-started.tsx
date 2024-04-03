@@ -1,12 +1,13 @@
 "use client";
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Wrapper } from "./wrapper";
 import { SectionHeading } from "./section-heading";
 import { useState, useTransition } from "react";
 import { addSubscription } from "@/actions/subsctibe";
+import { toast } from "../ui/use-toast";
 import { Loader } from "lucide-react";
-import { toast } from "../use-toast";
 
 function ArrowRightIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
@@ -65,7 +66,7 @@ export function GetStarted() {
         <SectionHeading number="07" className="mb-5">
           Subscribe
         </SectionHeading>
-        <div className="relative font-display -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-[2.0rem] md:px-16 xl:px-24 xl:py-36">
+        <div className="relative font-display -mx-4 overflow-hidden px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-[2.0rem] md:px-16 xl:px-24 xl:py-36">
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%]"
             src={"public/background-2.jpg"}

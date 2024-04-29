@@ -79,7 +79,7 @@ export const DevPicComponent = ({
               indx={indx}
               product={product}
               translate={translateX}
-              key={product.title}
+              key={indx}
             />
           ))}
         </motion.div>
@@ -89,7 +89,7 @@ export const DevPicComponent = ({
               indx={indx}
               product={product}
               translate={translateXReverse}
-              key={product.title}
+              key={indx}
             />
           ))}
         </motion.div>
@@ -99,7 +99,7 @@ export const DevPicComponent = ({
               indx={indx}
               product={product}
               translate={translateX}
-              key={product.title}
+              key={indx}
             />
           ))}
         </motion.div>

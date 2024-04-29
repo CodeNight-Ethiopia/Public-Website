@@ -1,56 +1,52 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/b6yCYVIVCHM
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 
-import Image from 'next/image';
-
-import Link from "next/link"
-import { Icons } from "../icons";
 
 export function HeroSection() {
   return (
-    <div className="py-10 lg:py-16 grid gap-10 lg:grid-cols-2">
-      <div className="flex flex-col justify-center space-y-4">
-        <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-            DEVELOPERS
-            MEETUP EVENT
-          </h1>
-          <p className="max-w-prose text-gray-500 md:text-xl dark:text-gray-400">
-            Experience a day of innovation at Code Night
-            Community's event! Connect with industry
-            leaders in networking sessions and panel
-            discussions, dive into our hackathon and
-            game session, meet virtual friends in person
-            during "Unveiling Voices," gain insights from
-            developers, remote workers, and freelancers,
-            and explore open-source tech with AASTU
-            and AAU communities. Don't miss out—join
-            us and be part of the excitement!
+    <section
+    >
+      <div
+        className=" inset-0 sm:bg-transparent  ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+      ></div>
+
+      <div
+        className="relative mx-auto max-w-screen-xl lg:flex"
+      >
+
+        <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right">
+        <h1
+          className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+        >
+            Codenight Developer Community
+
+        </h1>
+
+          <p className="mt-4 max-w-lg sm:text-xl/relaxed">
+            Learn about codenight projects and join our ever-growing community
           </p>
-        </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row">
-          <Link
-            className="inline-flex h-11 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="#"
-          >
-            Join
-          </Link>
+
+          <div className="mt-8 flex flex-wrap gap-4 text-center">
+            <a
+              href="#"
+              className="block w-full rounded border-2 border-rose-600 px-12 py-3 text-sm font-medium shadow hover:bg-rose-700 focus:outline-none focus:ring sm:w-auto"
+            >
+              Know our Projects
+            </a>
+
+            <a
+              href="#"
+              className="block w-full rounded border-2 border-white  px-12 py-3 text-sm font-medium shadow hover:bg-rose-700 hover:border-rose-700  focus:outline-none focus:ring  sm:w-auto"
+            >
+              Watch our tutorials
+            </a>
+            <a
+              href="#"
+              className="block w-full rounded border-2 border-white  px-12 py-3 text-sm font-medium shadow hover:bg-rose-700 hover:border-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+            >
+              Demo Days
+            </a>
+          </div>
         </div>
       </div>
-      <div className="flex justify-center items-center rounded-lg overflow-hidden">
-        <Image
-          priority
-          src="/assets/Image/hero.jpg"
-          height={300}
-          width={600}
-          alt="Custom Moon"
-          className="aspect-2/1 object-cover"
-        />
-        {/* <img alt="Image"  height="300" src="/placeholder.svg" width="600" /> */}
-      </div>
-    </div>
+    </section>
   )
 }

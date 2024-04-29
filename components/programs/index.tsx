@@ -30,14 +30,7 @@ const programs = [
   },
 ];
 
-
-
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/76MVgUUNEYZ
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-export  function Programs() {
+export default function Services() {
   return (
     <div className="container relative flex flex-col justify-between h-full  px-0 mt-5">
       <h2 className="mb-1 text-3xl font-extrabold leading-tight">Services</h2>

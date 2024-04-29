@@ -75,8 +75,8 @@ export default function Organizers() {
           role="list"
           className="mx-auto mt-20 grid max-w-4xl grid-cols-1 gap-x-32 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          {people.map((person) => (
-            <li key={person.name}>
+          {people.map((person, index) => (
+            <li key={index}>
               <img
                 className="mx-auto h-56 w-56 rounded-full"
                 src={person.imageUrl}
